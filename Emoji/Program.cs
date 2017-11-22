@@ -8,78 +8,64 @@ namespace Emoji
 {
     class Program
     {
-        List<Emoji> EmojiList { get; set; }
-        public List<string> EmoticonList { get; set; }
-        List<string> CategoryList { get; set; }
-        List<List<string>> AliasList { get; set; }
-        List<List<string>> TagsList { get; set; }
-        List<Double> UnicodeVList { get; set; }
-        List<Double> IOSVList { get; set; }
+        private List<Emoji> EmojiList { get; set; }
+        private EmojiQuery EmojiQuery { get; set; }
+
+        public Program()
+        {
+            Start();
+        }
+
+        // only called when class is instantiated
+        void Start()
+        {
+            // set the fields once, so no extra work is done later
+            EmojiList = JsonConvert.DeserializeObject<List<Emoji>>
+                (File.ReadAllText(@"emojis.json"));
+
+            EmojiQuery = new EmojiQuery(EmojiList);
+
+        }
 
         public List<Emoji> GetAllEmojis()
         {
-            if (EmojiList == null)
-            {
-                // set the fields once, so no extra work is done later
-                EmojiList = JsonConvert.DeserializeObject<List<Emoji>>
-                                       (File.ReadAllText(@"emojis.json"));
-
-                EmoticonList = new List<string>();
-                CategoryList = new List<string>();
-                AliasList = new List<List<string>>();
-                TagsList = new List<List<string>>();
-                UnicodeVList = new List<double>();
-                IOSVList = new List<double>();
-
-                foreach (Emoji emoji in EmojiList)
-                {
-                    EmoticonList.Add(emoji.Emoticon);
-                    CategoryList.Add(emoji.Category);
-                    AliasList.Add(emoji.Aliases);
-                    TagsList.Add(emoji.Tags);
-
-                    if (!string.IsNullOrEmpty(emoji.Unicode_Version))
-                        UnicodeVList.Add(Double.Parse(emoji.Unicode_Version));
-
-                    if (!string.IsNullOrEmpty(emoji.IOS_Version))
-                        IOSVList.Add(Double.Parse(emoji.IOS_Version));
-
-                }
-
-            }
             return EmojiList;
         }
 
-        public static void PrintList(List<string> list)
+        public List<Emoji> SearchByDescription(string desc)
         {
-            for (int x = 0; x < list.Count; x++)
+            return EmojiQuery.SearchByDescription(desc);
+        }
+
+        public List<Emoji> SearchByCategory(string cat)
+        {
+            return EmojiQuery.SearchByCategory(cat);
+        }
+        
+        public List<Emoji> SearchByAlias(string alias)
+        {
+            return EmojiQuery.SearchByAlias(alias);
+        }
+        
+        public List<Emoji> SearchByTag(string alias)
+        {
+            return EmojiQuery.SearchByTag(alias);
+        }
+
+        public static void PrintList(List<Emoji> list)
+        {
+            foreach (var e in list)
             {
-                Console.WriteLine(list[x]);
+                Console.WriteLine(e);
             }
 
         }
 
-
         static void Main(string[] args)
         {
-            Program program = new Program();
-            List<Emoji> emojis = program.GetAllEmojis();
-
-            IEnumerable<Emoji> emojiQuery =
-            from emoji in emojis
-            where emoji.Description.Contains("h")
-            select emoji;
-            
-            foreach (Emoji emoji in emojiQuery)
-            {
-                try
-                {
-                    Console.WriteLine("{0}, {1}",
-                                      emoji.Emoticon, emoji.Description);
-                }catch(Exception e){
-                    Console.WriteLine(e);
-                }
-            }
+            var program = new Program();
+            PrintList(program.SearchByCategory("Activity"));
+            PrintList(program.SearchByCategory("Activity"));
         }
     }
 }
