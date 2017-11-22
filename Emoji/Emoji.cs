@@ -5,13 +5,13 @@ namespace Emoji
 {
     public class Emoji
     {
-        public String Emoticon { get; set; }
-        public String Description { get; set; }
-        public String Category { get; set; }
-        public List<String> Aliases { get; set; }
-        public List<String> Tags { get; set; }
-        public String Unicode_Version { get; set; }
-        public String IOS_Version { get; set; }
+        public string Emoticon { get; set; }
+        public string Description { get; set; }
+        public string Category { get; set; }
+        public List<string> Aliases { get; set; }
+        public List<string> Tags { get; set; }
+        public string UnicodeVersion { get; set; }
+        public string IOSVersion { get; set; }
 
         public Emoji()
         {
@@ -20,13 +20,13 @@ namespace Emoji
             Category = "";
             Aliases = new List<string>();
             Tags = new List<string>();
-            Unicode_Version = "";
-            IOS_Version = "";
+            UnicodeVersion = "";
+            IOSVersion = "";
         }
 
-        private String ListToString(List<String> list)
+        private string ListToString(List<string> list)
         {
-            String all = "";
+            string all = "";
             for (int x = 0; x < list.Count; x++)
             {
                 all += list[x] + " ";
@@ -35,12 +35,12 @@ namespace Emoji
             return all.Trim().Replace(" ", ", ");
         }
 
-        public override String ToString()
+        public override string ToString()
         {
             return "Emoticon: " + Emoticon + "\nDescripiton: " + Description +
-                "\nCategory: " + Category + "\nAliases: [" + ListToString(Tags)
-                + "]\nUnicode_Version: " + Unicode_Version + "" +
-                "\nIOS_Version: " + IOS_Version;
+                   "\nCategory: " + Category + "\nAliases: [" + ListToString(Aliases)
+                   + "]\nTags: ["+ListToString(Tags)+"]\nUnicodeVersion: " + UnicodeVersion + "" +
+                   "\nIOSVersion: " + IOSVersion;
         }
     }
 }
