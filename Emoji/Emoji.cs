@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Emoji
 {
@@ -13,7 +14,7 @@ namespace Emoji
         public string UnicodeVersion { get; set; }
         public string IOSVersion { get; set; }
 
-        public Emoji()
+        protected Emoji()
         {
             Emoticon = "";
             Description = "";
@@ -23,24 +24,60 @@ namespace Emoji
             UnicodeVersion = "";
             IOSVersion = "";
         }
-
-        private string ListToString(List<string> list)
+        
+        private static string ListToString(IEnumerable<string> list)
         {
-            string all = "";
-            for (int x = 0; x < list.Count; x++)
-            {
-                all += list[x] + " ";
-            }
+            var all = list.Aggregate("", (current, t) => current + (t + " "));
 
             return all.Trim().Replace(" ", ", ");
+        }
+        
+        // useful for querying
+        public object GetField(string field)
+        {
+            switch (field)
+            {
+                case "DESCRIPTION":
+                    return Description;
+                case "CATEGORY":
+                    return Category;
+                case "ALIASES":
+                    return Aliases;
+                case "TAGS":
+                    return Tags;
+                case "UNICODEVERSION":
+                    return UnicodeVersion;
+                case "IOSVERSION":
+                    return IOSVersion;
+                default:
+                    return Description;
+            }
+        }
+
+        public bool TagContains(string str)
+        {
+            if (str == "")
+            {
+                return Tags.Count == 0;
+            }
+            return Tags.Any(s => s.ToLower().Contains(str.ToLower()));
+        }
+        
+        public bool AliasContains(string str)
+        {
+            if (str == "")
+            {
+                return Aliases.Count == 0;
+            }
+            return Aliases.Any(s => s.ToLower().Contains(str.ToLower()));
         }
 
         public override string ToString()
         {
-            return "Emoticon: " + Emoticon + "\nDescripiton: " + Description +
-                   "\nCategory: " + Category + "\nAliases: [" + ListToString(Aliases)
-                   + "]\nTags: ["+ListToString(Tags)+"]\nUnicodeVersion: " + UnicodeVersion + "" +
-                   "\nIOSVersion: " + IOSVersion;
+            return "{ Emoticon: " + Emoticon + ", Descripiton: " + Description +
+                   ", Category: " + Category + ", Aliases: [" + ListToString(Aliases)
+                   + "], Tags: ["+ListToString(Tags)+"], UnicodeVersion: " + UnicodeVersion +
+                   ", IOSVersion: " + IOSVersion+" }";
         }
     }
 }
