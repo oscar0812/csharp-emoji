@@ -1,86 +1,90 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Emoji
 {
     public class EmojiQuery
     {
-        private readonly string DESCRIPTION = "D:";
-        private readonly string CATEGORY = "C:";
-        private readonly string ALIAS = "A:";
-        private readonly string TAG = "T:";
+        private List<Emoji> Emojis { get; }
+        private readonly Dictionary<string, List<Emoji>> _dictionary = new Dictionary<string, List<Emoji>>();
 
-        private List<Emoji> EmojiList { get; }
-        private Dictionary<string, List<Emoji>> _dictionary { get; }
-
-        public EmojiQuery(List<Emoji> emojiList)
+        public EmojiQuery(List<Emoji> emojis)
         {
-            EmojiList = emojiList;
-            _dictionary = new Dictionary<string, List<Emoji>>();
+            Emojis = emojis;
+            foreach (var emoji in emojis)
+            {
+                var descr = emoji.Description;
+                var cate = emoji.Category;
+                var unicode = emoji.UnicodeVersion;
+                var ios = emoji.IOSVersion;
+                var aliases = emoji.Aliases;
+                var tags = emoji.Tags;
+
+                add("D-", descr, emoji);
+                add("C-", cate, emoji);
+                add("U-", unicode, emoji);
+                add("I-", ios, emoji);
+
+                foreach (var str in aliases)
+                {
+                    add("A-", str, emoji);
+                }
+
+                foreach (var str in tags)
+                {
+                    add("T-", str, emoji);
+                }
+            }
+        } //  end of constructor
+
+        private void add(string id, string item, Emoji emoji)
+        {
+            if (!_dictionary.ContainsKey(id + item))
+            {
+                _dictionary[id + item] = new List<Emoji> {emoji};
+            }
+            else
+            {
+                _dictionary[id + item].Add(emoji);
+            }
         }
 
-        public List<Emoji> SearchByDescription(string desc)
+        public List<Emoji> SearchBy(string field, string searchThis)
         {
-            desc = desc.ToLower();
-            var search = DESCRIPTION + desc;
-            if (_dictionary.ContainsKey(search))
-            {
-                return _dictionary[search];
-            }
-            var list = EmojiList.Where(emoji => (desc == ""  && emoji.Description == desc) 
-                                                || emoji.Description != "" && desc != "" && 
-                                                emoji.Description.ToLower().Contains(desc)).ToList();
+            searchThis = searchThis.ToLower();
+            var searchKey = field.ToUpper()[0] + "-" + searchThis;
 
-            _dictionary.Add(search, list);
-            return list;
+            return _dictionary.ContainsKey(searchKey)
+                ? _dictionary[searchKey]
+                : SearchList(field.ToUpper(), searchThis);
         }
 
-        public List<Emoji> SearchByCategory(string cat)
+        private List<Emoji> SearchList(string field, string searchThis)
         {
-            cat = cat.ToLower();
-            var search = CATEGORY + cat;
-            if (_dictionary.ContainsKey(search))
+            var list = new List<Emoji>();
+            foreach (var e in Emojis)
             {
-                return _dictionary[search];
+                var item = e.GetField(field);
+                switch (item)
+                {
+                    case string _:
+                        if (((string) item).ToLower().Contains(searchThis.ToLower()))
+                        {
+                            list.Add(e);
+                            add(field[0] + "-", searchThis, e);
+                        }
+                        break;
+                    case List<string> _:
+                        if (field[0] == 'A' && e.AliasContains(searchThis) ||
+                            (field[0] == 'T' && e.TagContains(searchThis)))
+                        {
+                            list.Add(e);
+                            add(field[0] + "-", searchThis, e);
+                        }
+                        break;
+                }
             }
-            var list = EmojiList.Where(emoji => (cat == "" && emoji.Category == cat) || 
-                                                emoji.Category != "" && cat != "" 
-                                                && emoji.Category.ToLower().Contains(cat)).ToList();
 
-            _dictionary.Add(search, list);
-            return list;
-        }
-
-        public List<Emoji> SearchByAlias(string alias)
-        {
-            alias = alias.ToLower();
-            var search = ALIAS + alias;
-            if (_dictionary.ContainsKey(search))
-            {
-                return _dictionary[search];
-            }
-            
-            var list = EmojiList.Where
-                (emoji => emoji.Aliases.Any(a => (alias == "" && emoji.Aliases.Count == 0) || 
-                                                 (alias != "" && a.ToLower().Contains(alias)))).ToList();
-
-            _dictionary.Add(search, list);
-            return list;
-        }
-        
-        public List<Emoji> SearchByTag(string tags)
-        {
-            tags = tags.ToLower();
-            var search = TAG + tags;
-            if (_dictionary.ContainsKey(search))
-            {
-                return _dictionary[search];
-            }
-            var list = EmojiList.Where(emoji => emoji.Tags.Any(t => tags != "" && t.ToLower().Contains(tags)) || 
-                                                tags == "" && emoji.Tags.Count == 0).ToList();
-
-            _dictionary.Add(search, list);
             return list;
         }
     }
