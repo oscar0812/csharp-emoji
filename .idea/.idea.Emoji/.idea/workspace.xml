@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ce81748-1aac-41cf-b2a9-a1fa064dce12" name="Default" comment="Better searching algorithm, every search will only be done once.">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Emoji/HashTable.cs" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Emoji/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <marker date="1511496325787" expanded="false" signature="6:106" ph="..." />
+                <marker date="1511496325787" expanded="true" signature="123:464" ph="{...}" />
+                <marker date="1511496325787" expanded="true" signature="143:462" ph="{...}" />
+                <marker date="1511496325787" expanded="true" signature="189:456" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmojiQuery.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Emoji/EmojiQuery.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="77" column="58" lean-forward="false" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
+              <folding>
+                <marker date="1511496358029" expanded="false" signature="6:47" ph="..." />
+                <marker date="1511496358029" expanded="true" signature="94:2846" ph="{...}" />
+                <marker date="1511496358029" expanded="true" signature="301:1101" ph="{...}" />
+                <marker date="1511496358029" expanded="true" signature="382:1091" ph="{...}" />
+                <marker date="1511496358029" expanded="true" signature="876:955" ph="{...}" />
+                <marker date="1511496358029" expanded="true" signature="998:1077" ph="{...}" />
+                <marker date="1511496358029" expanded="true" signature="1187:1450" ph="{...}" />
+                <marker date="1511496358029" expanded="true" signature="1250:1344" ph="{...}" />
+                <marker date="1511496358029" expanded="true" signature="1361:1440" ph="{...}" />
+                <marker date="1511496358029" expanded="true" signature="1520:1809" ph="{...}" />
+                <marker date="1511496358029" expanded="true" signature="1882:2840" ph="{...}" />
+                <marker date="1511496358029" expanded="true" signature="1972:2804" ph="{...}" />
+                <marker date="1511496358029" expanded="true" signature="2062:2790" ph="{...}" />
+                <marker date="1511496358029" expanded="true" signature="2201:2358" ph="{...}" />
+                <marker date="1511496358029" expanded="true" signature="2584:2741" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Emoji.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Emoji/Emoji.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+              <folding>
+                <marker date="1511495679777" expanded="true" signature="6:66" ph="..." />
+                <marker date="1511495679777" expanded="true" signature="83:2471" ph="{...}" />
+                <marker date="1511495679777" expanded="true" signature="108:2469" ph="{...}" />
+                <marker date="1511495679777" expanded="true" signature="474:721" ph="{...}" />
+                <marker date="1511495679777" expanded="true" signature="799:949" ph="{...}" />
+                <marker date="1511495679777" expanded="true" signature="1034:1606" ph="{...}" />
+                <marker date="1511495679777" expanded="true" signature="1071:1596" ph="{...}" />
+                <marker date="1511495679777" expanded="true" signature="1651:1837" ph="{...}" />
+                <marker date="1511495679777" expanded="true" signature="1688:1756" ph="{...}" />
+                <marker date="1511495679777" expanded="true" signature="1892:2084" ph="{...}" />
+                <marker date="1511495679777" expanded="true" signature="1929:2000" ph="{...}" />
+                <marker date="1511495679777" expanded="true" signature="2127:2463" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmojiList.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Emoji/EmojiList.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding>
+                <marker date="1511902960845" expanded="true" signature="6:87" ph="..." />
+                <marker date="1511902960845" expanded="true" signature="133:2251" ph="{...}" />
+                <marker date="1511902960845" expanded="true" signature="270:315" ph="{...}" />
+                <marker date="1511902960845" expanded="true" signature="360:405" ph="{...}" />
+                <marker date="1511902960845" expanded="true" signature="501:847" ph="{...}" />
+                <marker date="1511902960845" expanded="true" signature="890:939" ph="{...}" />
+                <marker date="1511902960845" expanded="true" signature="998:1125" ph="{...}" />
+                <marker date="1511902960845" expanded="true" signature="1180:1304" ph="{...}" />
+                <marker date="1511902960845" expanded="true" signature="1366:1491" ph="{...}" />
+                <marker date="1511902960845" expanded="true" signature="1549:1669" ph="{...}" />
+                <marker date="1511902960845" expanded="true" signature="1721:1948" ph="{...}" />
+                <marker date="1511902960845" expanded="true" signature="2004:2127" ph="{...}" />
+                <marker date="1511902960845" expanded="true" signature="2050:2116" ph="{...}" />
+                <marker date="1511902960845" expanded="true" signature="2181:2245" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="emojis.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Emoji/emojis.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171015">
+              <caret line="11401" column="30" lean-forward="false" selection-start-line="11401" selection-start-column="20" selection-end-line="11401" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>String</find>
+      <find>string</find>
+      <find>Unicode_Version</find>
+      <find>IOS_Version</find>
+      <find>Aliases&quot;: [</find>
+      <find>List&lt;Emoji&gt;</find>
+      <find>Add(</find>
+      <find>house</find>
+      <find>left-point</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>string</replace>
+      <replace>UnicodeVersion</replace>
+      <replace>IOSVersion</replace>
+      <replace>EmojiList</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Emoji/emojis.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Emoji/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/046EF1B4-A4CF-4079-AA2E-EE83885437EA/30/34eda850/List`1.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Emoji/EmojiQuery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Emoji/Emoji.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Emoji/EmojiList.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Emoji/emojis.json" />
+        <option value="$PROJECT_DIR$/Emoji/EmojiHash.cs" />
+        <option value="$PROJECT_DIR$/Emoji/Emoji.cs" />
+        <option value="$PROJECT_DIR$/Emoji/EmojiList.cs" />
+        <option value="$PROJECT_DIR$/Emoji/Program.cs" />
+        <option value="$PROJECT_DIR$/Emoji/EmojiQuery.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="721" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Emoji (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Emoji (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Emoji" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/oscartorres/Projects/Emoji/Emoji/Program.cs" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Emoji/bin/Debug/netcoreapp2.0/Emoji.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Emoji" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Emoji/Emoji.csproj" />
+      <option name="PROJECT_OUTPUT_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ce81748-1aac-41cf-b2a9-a1fa064dce12" name="Default" comment="" />
+      <created>1511314820800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511314820800</updated>
+      <workItem from="1511314823426" duration="2179000" />
+      <workItem from="1511317041033" duration="2114000" />
+      <workItem from="1511325364165" duration="6685000" />
+      <workItem from="1511384028951" duration="409000" />
+      <workItem from="1511476240773" duration="12613000" />
+      <workItem from="1511902953940" duration="57000" />
+    </task>
+    <task id="LOCAL-00001" summary="String-&gt;string">
+      <created>1511331910248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511331910248</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Some LINQ searching done">
+      <created>1511331929227</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1511331929227</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Unicode_Version-&gt;UnicodeVersion, IOS_Version-&gt;IOSVersion">
+      <created>1511331962156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511331962156</updated>
+    </task>
+    <task id="LOCAL-00004" summary="removed unused lists, and moved sorting to own class">
+      <created>1511332053538</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1511332053538</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Better searching algorithm, every search will only be done once.">
+      <created>1511495619177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1511495619177</updated>
+    </task>
+    <task id="LOCAL-00006" summary="helper methods for querying">
+      <created>1511495694911</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1511495694911</updated>
+    </task>
+    <task id="LOCAL-00007" summary="moved to own class for fluent interface support">
+      <created>1511496450249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1511496450249</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Example use">
+      <created>1511496469840</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1511496469840</updated>
+    </task>
+    <task id="LOCAL-00009" summary="removed spacing">
+      <created>1511903001643</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1511903001643</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24057000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="721" extended-state="1" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35130972" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990755" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819724" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="String-&gt;string" />
+    <MESSAGE value="Some LINQ searching done" />
+    <MESSAGE value="Unicode_Version-&gt;UnicodeVersion, IOS_Version-&gt;IOSVersion" />
+    <MESSAGE value="removed unused lists, and moved sorting to own class" />
+    <MESSAGE value="Better searching algorithm, every search will only be done once." />
+    <MESSAGE value="helper methods for querying" />
+    <MESSAGE value="moved to own class for fluent interface support" />
+    <MESSAGE value="Example use" />
+    <MESSAGE value="removed spacing" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed spacing" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/046EF1B4-A4CF-4079-AA2E-EE83885437EA/30/34eda850/List`1.cs</url>
+          <line>127</line>
+          <properties documentPath="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/046EF1B4-A4CF-4079-AA2E-EE83885437EA/30/34eda850/List`1.cs">
+            <startOffsets>
+              <startOffset value="4584" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="4585" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Emoji/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <marker date="1511496325787" expanded="false" signature="6:106" ph="..." />
+            <marker date="1511496325787" expanded="true" signature="123:464" ph="{...}" />
+            <marker date="1511496325787" expanded="true" signature="143:462" ph="{...}" />
+            <marker date="1511496325787" expanded="true" signature="189:456" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/EmojiQuery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="77" column="58" lean-forward="true" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
+          <folding>
+            <marker date="1511496358029" expanded="false" signature="6:47" ph="..." />
+            <marker date="1511496358029" expanded="true" signature="94:2846" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="301:1101" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="382:1091" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="876:955" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="998:1077" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1187:1450" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1250:1344" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1361:1440" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1520:1809" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1882:2840" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1972:2804" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2062:2790" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2201:2358" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2584:2741" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/Emoji.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+          <folding>
+            <marker date="1511495679777" expanded="true" signature="6:66" ph="..." />
+            <marker date="1511495679777" expanded="true" signature="83:2471" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="108:2469" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="474:721" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="799:949" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1034:1606" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1071:1596" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1651:1837" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1688:1756" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1892:2084" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1929:2000" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="2127:2463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/EmojiList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <marker date="1511902960845" expanded="true" signature="6:87" ph="..." />
+            <marker date="1511902960845" expanded="true" signature="133:2251" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="270:315" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="360:405" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="501:847" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="890:939" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="998:1125" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="1180:1304" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="1366:1491" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="1549:1669" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="1721:1948" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="2004:2127" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="2050:2116" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="2181:2245" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/emojis.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171015">
+          <caret line="11401" column="30" lean-forward="false" selection-start-line="11401" selection-start-column="20" selection-end-line="11401" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <marker date="1511496325787" expanded="false" signature="6:106" ph="..." />
+            <marker date="1511496325787" expanded="true" signature="123:464" ph="{...}" />
+            <marker date="1511496325787" expanded="true" signature="143:462" ph="{...}" />
+            <marker date="1511496325787" expanded="true" signature="189:456" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/Emoji.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <marker date="1511495679777" expanded="true" signature="6:66" ph="..." />
+            <marker date="1511495679777" expanded="true" signature="83:2471" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="108:2469" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="474:721" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="799:949" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1034:1606" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1071:1596" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1651:1837" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1688:1756" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1892:2084" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1929:2000" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="2127:2463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/emojis.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110310">
+          <caret line="7354" column="25" lean-forward="false" selection-start-line="7354" selection-start-column="17" selection-end-line="7354" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/EmojiQuery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <marker date="1511496358029" expanded="false" signature="6:47" ph="..." />
+            <marker date="1511496358029" expanded="true" signature="94:2846" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="301:1101" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="382:1091" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="876:955" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="998:1077" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1187:1450" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1250:1344" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1361:1440" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1520:1809" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1882:2840" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1972:2804" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2062:2790" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2201:2358" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2584:2741" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511496325787" expanded="false" signature="6:106" ph="..." />
+            <marker date="1511496325787" expanded="true" signature="123:464" ph="{...}" />
+            <marker date="1511496325787" expanded="true" signature="143:462" ph="{...}" />
+            <marker date="1511496325787" expanded="true" signature="189:456" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/EmojiQuery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1511496358029" expanded="false" signature="6:47" ph="..." />
+            <marker date="1511496358029" expanded="true" signature="94:2846" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="301:1101" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="382:1091" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="876:955" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="998:1077" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1187:1450" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1250:1344" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1361:1440" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1520:1809" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1882:2840" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1972:2804" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2062:2790" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2201:2358" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2584:2741" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/Emoji.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <marker date="1511495679777" expanded="true" signature="6:66" ph="..." />
+            <marker date="1511495679777" expanded="true" signature="83:2471" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="108:2469" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="474:721" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="799:949" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1034:1606" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1071:1596" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1651:1837" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1688:1756" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1892:2084" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1929:2000" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="2127:2463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/emojis.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110310">
+          <caret line="7354" column="25" lean-forward="false" selection-start-line="7354" selection-start-column="17" selection-end-line="7354" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511496325787" expanded="false" signature="6:106" ph="..." />
+            <marker date="1511496325787" expanded="true" signature="123:464" ph="{...}" />
+            <marker date="1511496325787" expanded="true" signature="143:462" ph="{...}" />
+            <marker date="1511496325787" expanded="true" signature="189:456" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/EmojiQuery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <marker date="1511496358029" expanded="false" signature="6:47" ph="..." />
+            <marker date="1511496358029" expanded="true" signature="94:2846" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="301:1101" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="382:1091" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="876:955" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="998:1077" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1187:1450" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1250:1344" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1361:1440" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1520:1809" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1882:2840" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1972:2804" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2062:2790" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2201:2358" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2584:2741" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/Emoji.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1511495679777" expanded="true" signature="6:66" ph="..." />
+            <marker date="1511495679777" expanded="true" signature="83:2471" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="108:2469" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="474:721" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="799:949" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1034:1606" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1071:1596" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1651:1837" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1688:1756" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1892:2084" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1929:2000" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="2127:2463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/emojis.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511496325787" expanded="false" signature="6:106" ph="..." />
+            <marker date="1511496325787" expanded="true" signature="123:464" ph="{...}" />
+            <marker date="1511496325787" expanded="true" signature="143:462" ph="{...}" />
+            <marker date="1511496325787" expanded="true" signature="189:456" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/EmojiQuery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <marker date="1511496358029" expanded="false" signature="6:47" ph="..." />
+            <marker date="1511496358029" expanded="true" signature="94:2846" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="301:1101" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="382:1091" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="876:955" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="998:1077" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1187:1450" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1250:1344" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1361:1440" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1520:1809" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1882:2840" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1972:2804" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2062:2790" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2201:2358" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2584:2741" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/Emoji.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <marker date="1511495679777" expanded="true" signature="6:66" ph="..." />
+            <marker date="1511495679777" expanded="true" signature="83:2471" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="108:2469" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="474:721" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="799:949" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1034:1606" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1071:1596" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1651:1837" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1688:1756" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1892:2084" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1929:2000" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="2127:2463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/emojis.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/EmojiQuery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="65" column="12" lean-forward="false" selection-start-line="65" selection-start-column="12" selection-end-line="68" selection-end-column="24" />
+          <folding>
+            <marker date="1511496358029" expanded="false" signature="6:47" ph="..." />
+            <marker date="1511496358029" expanded="true" signature="94:2846" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="301:1101" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="382:1091" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="876:955" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="998:1077" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1187:1450" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1250:1344" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1361:1440" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1520:1809" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1882:2840" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1972:2804" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2062:2790" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2201:2358" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2584:2741" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/046EF1B4-A4CF-4079-AA2E-EE83885437EA/30/34eda850/List`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6997">
+          <caret line="127" column="5" lean-forward="false" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/Emoji.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+          <folding>
+            <marker date="1511495679777" expanded="true" signature="6:66" ph="..." />
+            <marker date="1511495679777" expanded="true" signature="83:2471" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="108:2469" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="474:721" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="799:949" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1034:1606" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1071:1596" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1651:1837" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1688:1756" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1892:2084" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="1929:2000" ph="{...}" />
+            <marker date="1511495679777" expanded="true" signature="2127:2463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/EmojiQuery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="77" column="58" lean-forward="false" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
+          <folding>
+            <marker date="1511496358029" expanded="false" signature="6:47" ph="..." />
+            <marker date="1511496358029" expanded="true" signature="94:2846" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="301:1101" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="382:1091" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="876:955" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="998:1077" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1187:1450" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1250:1344" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1361:1440" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1520:1809" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1882:2840" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="1972:2804" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2062:2790" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2201:2358" ph="{...}" />
+            <marker date="1511496358029" expanded="true" signature="2584:2741" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/EmojiList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <marker date="1511902960845" expanded="true" signature="6:87" ph="..." />
+            <marker date="1511902960845" expanded="true" signature="133:2251" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="270:315" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="360:405" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="501:847" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="890:939" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="998:1125" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="1180:1304" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="1366:1491" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="1549:1669" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="1721:1948" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="2004:2127" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="2050:2116" ph="{...}" />
+            <marker date="1511902960845" expanded="true" signature="2181:2245" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/emojis.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171015">
+          <caret line="11401" column="30" lean-forward="false" selection-start-line="11401" selection-start-column="20" selection-end-line="11401" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoji/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <marker date="1511496325787" expanded="false" signature="6:106" ph="..." />
+            <marker date="1511496325787" expanded="true" signature="123:464" ph="{...}" />
+            <marker date="1511496325787" expanded="true" signature="143:462" ph="{...}" />
+            <marker date="1511496325787" expanded="true" signature="189:456" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
